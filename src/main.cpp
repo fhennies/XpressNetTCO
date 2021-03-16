@@ -8,6 +8,8 @@
   #include <Adafruit_MCP23017.h>
 #endif
 
+// #define MY_ADDRESS 0x5A
+
 XpressNetMasterClass XpressNet;
 
 const byte shift = SHIFTADDR;
@@ -64,8 +66,8 @@ void loop() {
       XpressNet.SetTrntPos(MegaInpAdd[i]-shift, MegaInpPos[i], 1);
       notifyXNetTrnt(MegaInpAdd[i]-shift, (MegaInpPos[i] | 0x08));
       if (MegaInpAdd2[i] != 0) {
+        XpressNet.update();	
         delay(250);
-        XpressNet.update();	  
         XpressNet.SetTrntPos(MegaInpAdd2[i]-shift, MegaInpPos2[i], 1);
         notifyXNetTrnt(MegaInpAdd2[i]-shift, (MegaInpPos2[i] | 0x08));
       }
