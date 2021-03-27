@@ -8,10 +8,10 @@ Es müssen einige Leiterbahnen auf Vorder- und Rückseite durchtrennt werden und
 ![value_top.png](value_top.png)                                    
 ![value_bottom.png](value_bottom.png)                                                 
 
-#### Foto PCB Vorderseite mit durchtrennten Bahnen:   
+#### PCB Vorderseite mit durchtrennten Bahnen:   
 ![PCB_cuts_top.png](PCB_cuts_top.png)
 
-#### Foto PCB Rückseite mit durchtrennten Bahnen:     
+#### PCB Rückseite mit durchtrennten Bahnen:     
 ![PCB_cuts_bottom.png](PCB_cuts_bottom.png)
 
 #### Foto PCB Vorderseite mit Brücken:                
